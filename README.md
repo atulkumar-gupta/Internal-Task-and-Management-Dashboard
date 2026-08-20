@@ -119,13 +119,17 @@ Internal_Task_Manage-dashboard/
 
 ![Dashboard](./screenshots/dashboard.png)
 
-### Tasks
-
-![Tasks](./screenshots/tasks.png)
-
 ### Task Management
 
 ![Task Management](./screenshots/task-management.png)
+
+### Tasks
+
+![Task](./screenshots/task.png)
+
+![Task 1](./screenshots/task-1.png)
+
+![Tasks 2](./screenshots/tasks-2.png)
 
 ### Create Task
 
@@ -159,10 +163,6 @@ Internal_Task_Manage-dashboard/
 
 ### Team
 
-![Team](./screenshots/team-1.png)
+![Team](./screenshots/team.png)
 
 ![Teams](./screenshots/teams.png)
-
-### Task Details
-
-![Task Details](./screenshots/task-details.png)
