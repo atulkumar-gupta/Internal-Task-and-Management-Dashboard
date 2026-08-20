@@ -63,3 +63,34 @@ Open the Vite URL shown in the terminal, normally:
 - GET `/api/health`
 
 The backend seeds sample users/tasks on first startup.
+## Project Structure
+
+```text
+Internal_Task_Manage-dashboard/
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── hooks/
+│   │   └── utils/
+│   └── package.json
+│
+├── backend/
+│   ├── routes/
+│   ├── services/
+│   ├── repositories/
+│   ├── models/
+│   ├── schemas/
+│   ├── database.py
+│   ├── main.py
+│   └── requirements.txt
+│
+├── screenshots/
+│   ├── dashboard.png
+│   ├── tasks.png
+│   ├── task-details.png
+│   └── team.png
+│
+├── .gitignore
+└── README.md
