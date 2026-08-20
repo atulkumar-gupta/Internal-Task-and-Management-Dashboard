@@ -90,7 +90,25 @@ Internal_Task_Manage-dashboard/
 │   ├── dashboard.png
 │   ├── tasks.png
 │   ├── task-details.png
-│   └── team.png
+│   ├── team.png
+│   ├── Create task.png
+│   ├── Create task1.png
+│   ├── Createtask task name.png
+│   ├── Createtask1.png
+│   ├── Createtaskpriority.png
+│   ├── Dashboard.png
+│   ├── Edit task.png
+│   ├── Task Management.png
+│   ├── Task.png
+│   ├── Task1.png
+│   ├── Taskflow.png
+│   ├── taskflow1.png
+│   ├── tasks2.png
+│   ├── Tasksstats.png
+│   ├── tasksstats1.png
+│   ├── Tasksstats3.png
+│   ├── Team.png
+│   └── Teams.png
 │
 ├── .gitignore
 └── README.md
