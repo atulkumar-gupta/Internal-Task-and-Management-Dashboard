@@ -1,0 +1,65 @@
+# Internal Task & Management Dashboard
+
+A small internal task-tracking application built for the assignment.
+
+## Stack
+- Frontend: React + Vite + Tailwind CSS
+- Backend: Python + FastAPI
+- Database: SQLite (assignment-acceptable alternative to PostgreSQL)
+- External API: JSONPlaceholder
+
+## Project structure
+- `frontend/src/components` reusable UI components
+- `frontend/src/pages` application pages
+- `frontend/src/services` API integration
+- `frontend/src/hooks` reusable React hooks
+- `backend/routes` REST endpoints
+- `backend/services` business logic
+- `backend/models` SQLAlchemy database models
+- `backend/schemas` request validation
+- `backend/repositories` database query logic
+- `backend/utils` seed and utilities
+
+## Run backend
+
+Windows PowerShell:
+```powershell
+cd backend
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python -m uvicorn main:app --reload --port 8000
+```
+
+If PowerShell blocks activation, run:
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass
+.venv\Scripts\Activate.ps1
+```
+
+## Run frontend
+
+Open a second terminal:
+```powershell
+cd frontend
+npm install
+npm run dev
+```
+
+Open the Vite URL shown in the terminal, normally:
+`http://localhost:5173`
+
+## API
+- GET `/api/tasks`
+- GET `/api/tasks/{id}`
+- POST `/api/tasks`
+- PUT `/api/tasks/{id}`
+- DELETE `/api/tasks/{id}`
+- GET `/api/tasks/{id}` plus `/comments`
+- GET `/api/users`
+- POST `/api/users`
+- GET `/api/dashboard`
+- GET `/api/external/users`
+- GET `/api/health`
+
+The backend seeds sample users/tasks on first startup.
