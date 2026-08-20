@@ -112,3 +112,57 @@ Internal_Task_Manage-dashboard/
 │
 ├── .gitignore
 └── README.md
+
+## Screenshots
+
+### Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+### Tasks
+
+![Tasks](./screenshots/tasks.png)
+
+### Task Management
+
+![Task Management](./screenshots/task-management.png)
+
+### Create Task
+
+![Create Task](./screenshots/create-task.png)
+
+![Create Task 1](./screenshots/create-task-1.png)
+
+![Create Task Name](./screenshots/create-task-name.png)
+
+![Create Task 2](./screenshots/create-task-2.png)
+
+![Create Task Priority](./screenshots/create-task-priority.png)
+
+### Edit Task
+
+![Edit Task](./screenshots/edit-task.png)
+
+### Task Flow
+
+![Task Flow](./screenshots/task-flow.png)
+
+![Task Flow 1](./screenshots/task-flow-1.png)
+
+### Task Statistics
+
+![Task Statistics](./screenshots/task-stats.png)
+
+![Task Statistics 1](./screenshots/task-stats-1.png)
+
+![Task Statistics 3](./screenshots/task-stats-3.png)
+
+### Team
+
+![Team](./screenshots/team-1.png)
+
+![Teams](./screenshots/teams.png)
+
+### Task Details
+
+![Task Details](./screenshots/task-details.png)
